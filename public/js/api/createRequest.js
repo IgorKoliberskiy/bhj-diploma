@@ -22,11 +22,11 @@ const createRequest = (options = {}) => {
       let err = null;
       let response = null;
       if (xhr.status == 200) {
-        const r = xhr.response;
-        if (r && r.success) {
-          response = r;
+        const resp = xhr.response;
+        if (resp && resp.success) {
+          response = resp;
         } else {
-          err = r;
+          err = resp;
         }
       } else {
         err = new Error('Ошибка')

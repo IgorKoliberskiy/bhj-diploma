@@ -23,6 +23,12 @@
       "email": "1@1.ru",
       "password": "111",
       "id": "3sp0fclwlddizqji"
+    },
+    {
+      "name": "Player",
+      "email": "1@2.ru",
+      "password": "111",
+      "id": "3sp0f73kldg31o9r"
     }
   ],
   "accounts": [
@@ -45,6 +51,11 @@
       "name": "Зарплата",
       "user_id": "3sp0f1xslddhv4mc",
       "id": "3sp0fa5klddiut4b"
+    },
+    {
+      "name": "Катра",
+      "user_id": "3sp0f73kldg31o9r",
+      "id": "3sp0fcckldg353sn"
     }
   ],
   "transactions": [
